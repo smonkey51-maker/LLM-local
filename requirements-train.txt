@@ -1,0 +1,6 @@
+# Dipendenze per training e quantizzazione (Colab o locale)
+torch
+transformers>=4.41
+datasets
+accelerate
+numpy
