@@ -17,3 +17,6 @@ __pycache__/
 *.pyc
 .venv/
 .env
+
+# Dataset sintetici generati (riproducibili con il seed)
+data/synthetic/*.jsonl
