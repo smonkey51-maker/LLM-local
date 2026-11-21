@@ -1,0 +1,4 @@
+flask>=3.0
+# opzionali, solo per il detector modello:
+# transformers>=4.40
+# torch

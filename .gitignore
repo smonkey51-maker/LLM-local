@@ -1,0 +1,19 @@
+# Documenti reali: non vanno mai committati
+data/real/*
+!data/real/.gitkeep
+
+# Pesi del modello e artefatti di training
+models/
+*.onnx
+*.safetensors
+*.bin
+checkpoints/
+
+# Mappe segnaposto (contengono dati personali)
+*.mapping.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
